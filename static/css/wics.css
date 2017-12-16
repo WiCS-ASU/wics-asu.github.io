@@ -20,6 +20,11 @@
     background-color: #660080;
     color: #ffffff;
 }
+.navbar-right{
+    background-color: #660080;
+    color: #ffffff;
+    
+}
 
 .navbar-default .navbar-header .navbar-toggle .icon-bar {
     background-color: #ffffff;
@@ -107,7 +112,7 @@ span {
 }
 
 .pcbg {
-    background: url('../images/welcomeBackground5.jpg') no-repeat center center;
+    background: url('../images/pcheader.png') no-repeat center center;
     background-size: cover;
     position: fixed;
     width: 100%;
@@ -115,6 +120,7 @@ span {
     top:0;
     left:0;
     z-index: -1;
+    opacity: 0.8;
   }
 
 .pcjumbotron-landing {
