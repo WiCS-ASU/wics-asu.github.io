@@ -110,6 +110,18 @@ span {
 
   display: table;
 }
+ /*programming competition css*/
+
+#pcintro{
+    background-color: #660080;
+    width: 50%;
+    margin: 0 auto;
+    text-shadow: #fff 0 0 0;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 0.8;
+}
 
 .pcbg {
     background: url('../images/pcheader.png') no-repeat center center;
@@ -186,9 +198,25 @@ background: #660080;
     color: #660080;
 }
 
+#pcinfo {
+    background: white;
+    color: #660080;
+}
+
 .stack {
     height: 550px;
     width:100%;
+    color: white;
+    text-align: center;
+    background: transparent;
+    display: table;
+    margin-bottom: 0px;
+}
+.pcstack {
+    height: 550px;
+    width:100%;
+    height: 50%;
+    font-size: 20px;
     color: white;
     text-align: center;
     background: transparent;
