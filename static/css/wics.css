@@ -1,7 +1,7 @@
 /* Navigation bar */
 
 .navbar-default {
-    background-color:#FFC627;
+    background-color:#700ada;
     font-size: 18px;
 }
 
@@ -12,13 +12,13 @@
 
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-brand {
-    color: #8C1D40;
+    color: #ffffff;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-brand:hover {
     /* background-color: #000; */
-    color: #ffffff;
+    color: #000000;
 }
 
 .navbar-default .navbar-nav > li > a:active,
@@ -96,18 +96,18 @@ span {
 
 
 .bg {
-  background: url('../images/welcomeBackground5.jpg') no-repeat center center;
+  background: url('../images/welcomeBackground.jpg') no-repeat center center;
   background-size: cover;
   position: fixed;
   width: 100%;
-  height: 800px; /* must be the same height as the jumbotron-landing */
+  height: 550px; /* must be the same height as the jumbotron-landing */
   top:0;
   left:0;
   z-index: -1;
 }
 
 .jumbotron-landing {
-  height: 800px;
+  height: 550px;
   width:100%;
   color: white;
   text-shadow: #444 0 5px 5px;
@@ -130,7 +130,7 @@ span {
 }
 
 .pcbg {
-    background: url('../images/pcheader.png') no-repeat center center;
+    background: url('../images/pcheader.png') no-repeat center center; 
     background-size: cover;
     position: fixed;
     width: 100%;
@@ -231,7 +231,7 @@ background: #660080;
 }
 
 .stack h2 {
-      #text-shadow: #8c8c8c 0 5px 5px;
+      text-shadow: #8c8c8c 0 5px 5px;
 }
 
 .text {
