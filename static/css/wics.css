@@ -1,13 +1,17 @@
 /* Navigation bar */
+body {
+    font-family: 'Slabo 27px';
+}
 
 .navbar-default {
     background-color:#700ada;
     font-size: 18px;
+    border: none;
 }
 
 .navbar-image{
    height: 40px;
-   margin-top: -9px; 
+   margin-top: -9px;
 }
 
 .navbar-default .navbar-nav > li > a,
@@ -18,7 +22,7 @@
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-brand:hover {
     /* background-color: #000; */
-    color: #000000;
+    color: #ae97de;
 }
 
 .navbar-default .navbar-nav > li > a:active,
@@ -51,15 +55,13 @@ span {
 
 /* Social Media images need to be smaller on mobile devices */
 
-@media (max-width: 768px) {
 .social-media {
   width: 35px;
   height: 35px;
 }
-}
+
 .social-media-images {
     width: 100%;
-    text-align: center;
 }
 .navbar-footer {
     margin: 2px auto;
@@ -75,11 +77,10 @@ span {
 
 /* Social Media images can be larger on desktop/laptop/large screen devices */
 
-@media (min-width: 768px) {
-.social-media {
-  width: 35px;
-  height: 35px;
-}
+.social-media-images {
+    width: 100%;
+    text-align: center;
+    margin: ;
 }
 
 .decor-image {
@@ -96,26 +97,36 @@ span {
 
 
 .bg {
-  background: url('../images/welcomeBackground.jpg') no-repeat center center;
+  background:  linear-gradient(rgba(132,75,191, 0.5), rgba(56,4,109, 0.1)), url('../images/slideshow/12.5.JPG') no-repeat center center ;
   background-size: cover;
   position: fixed;
   width: 100%;
-  height: 550px; /* must be the same height as the jumbotron-landing */
-  top:0;
+  height: 400px; /* must be the same height as the jumbotron-landing */
+  top:50;
   left:0;
-  z-index: -1;
+  z-index: -2;
+}
+
+.banner {
+    background:  linear-gradient(rgba(132,75,191, 0.5), rgba(255,255,255, 0.4)), url('../images/welcomeBackground.jpg') no-repeat;
+background-size: cover;
+    z-index: 33;
+    height: 500px;
 }
 
 .jumbotron-landing {
-  height: 550px;
+  height: 400px;
   width:100%;
   color: white;
   text-shadow: #444 0 5px 5px;
   text-align: center;
   background: transparent;
-
   display: table;
 }
+
+.
+
+
  /*programming competition css*/
 
 #pcintro{
@@ -123,14 +134,13 @@ span {
     width: 50%;
     margin: 0 auto;
     text-shadow: #fff 0 0 0;
-    font-size: 20px;
- 
-    padding: 10px;
+    font-size: 20px; 
+    padding: 30px;
 
 }
 
 .pcbg {
-    background: url('../images/pcheader.png') no-repeat center center; 
+    background: linear-gradient(rgba(132,75,191, 0.5), rgba(56,4,109, 0.5)), url('../images/pcheader.png') no-repeat center center; 
     background-size: cover;
     position: fixed;
     width: 100%;
@@ -193,21 +203,23 @@ span {
 
 #about {
     background: white;
-    color: #660080;
+    color: #700ada;
 }
 
 #meetings {
-background: #660080;
+background:  linear-gradient(rgba(132,75,191, 0.5), rgba(255,255,255, 0.4)), url('../images/welcomeBackground.jpg') no-repeat;
+background-size: cover;
+
 }
 
 #sponsors {
     background: white;
-    color: #660080;
+    color: #700ada;
 }
 
 #pcinfo {
     background: white;
-    color: #660080;
+    color: #700ada;
 }
 
 .stack {
@@ -236,6 +248,17 @@ background: #660080;
 
 .stack-text {
     margin-bottom: 20px;
+}
+
+.copyright {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+#calendar {
+ background:  linear-gradient(rgba(132,75,191, 0.5), rgba(255,255,255, 0.4)), url('../images/welcomeBackground.jpg') no-repeat;
+background-size: cover;   
 }
 
 
