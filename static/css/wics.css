@@ -80,7 +80,7 @@ span {
 .social-media-images {
     width: 100%;
     text-align: center;
-    margin: ;
+    margin: 0;
 }
 
 .decor-image {
@@ -95,6 +95,40 @@ span {
     margin-bottom: 50px;
 }
 
+.goldsp{
+
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.silversp{
+   
+}
+
+.maroonsp{
+
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+.goldsp-logo { /*gold sponsor logo*/
+    width: 400px;
+    height: auto;
+    margin-bottom: 50px;
+}
+ 
+.silversp-logo { /*silver sponsor logo*/
+    width: 270px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.maroonsp-logo { /*maroon sponsor logo*/
+    width: 200px;
+    height: auto;
+    margin-bottom: 50px;
+}
 
 .bg {
   background:  linear-gradient(rgba(132,75,191, 0.5), rgba(56,4,109, 0.1)), url('../images/slideshow/12.5.JPG') no-repeat center center ;
@@ -260,5 +294,3 @@ background-size: cover;
  background:  linear-gradient(rgba(132,75,191, 0.5), rgba(255,255,255, 0.4)), url('../images/welcomeBackground.jpg') no-repeat;
 background-size: cover;   
 }
-
-
