@@ -93,6 +93,7 @@ span {
     width: 200px;
     height: auto;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .goldsp{
@@ -102,14 +103,17 @@ span {
 }
 
 .silversp{
+    text-align: center;
     margin: 0;
 }
 
 .maroonsp{
-
+    font-weight: bold;
+    text-align: center;
     margin-left: 60px;
     margin-right: 60px;
 }
+
 
 
 .goldsp-logo { /*gold sponsor logo*/
