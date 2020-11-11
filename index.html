@@ -1,159 +1,315 @@
-<!DOCTYPE html>
-<html>
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Brand</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
-    <link rel="stylesheet" href="assets/css/Features-Boxed.css">
-    <link rel="stylesheet" href="assets/css/Footer-Clean.css">
-    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
-    <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
-    <link rel="stylesheet" href="assets/css/untitled.css">
-</head>
-
-<body style="background: linear-gradient(rgb(250,192,255) 49%, #bd58e0 100%);">
-    <div class="container" style="padding-bottom: 80px;">
-        <nav class="navbar navbar-dark navbar-expand-lg fixed-top portfolio-navbar gradient" style="padding: 5px;background: linear-gradient(0deg, rgba(112,12,218,0.58) 0%, rgb(112,12,218));border: 1px solid rgba(191,63,222,0.41);border-radius: 3px;border-bottom-right-radius: 3px;border-bottom-left-radius: 3px;">
-            <div class="container-fluid"><img src="assets/img/wicstextlogo-white.png" style="width: 150px;margin: 0px;"><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav" style="width: 100px;height: 58px;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon" style="font-size: 24px;"></span></button>
-                <div
-                    class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link active" href="index.html" style="font-family: Lato;font-size: 20px;">About WiCS</a></li>
-                        <li class="nav-item" style="padding: 0px;"></li>
-                    </ul>
-            </div>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="static/css/wics.css"/>
+        <!--<link rel="stylesheet" href="static/css/slide.css">-->
+        <title> WiCS @ ASU </title>
+    </head>
+    
+    <body>
+    <script type="text/javascript" src="static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="static/js/wics.js"></script>
+    <!-- <script type="text/javascript" src="static/js/slide.js"></script>
+    
+    <div class="jquery-script-clear"></div>
+    <div class="containerr">
+    
+       <div class="slide">
+            <div class="slide-horizontal"><ul class="slide-container">
+                <li style="left: 28.2925px;" class="active">
+                    <a href=""><div style="background-image: url("static/images/2017progcomp1.JPG")"></div></a>
+                </li>
+                <li class="" style="left: -1280px;"> //syntax error
+                    <a href=""><img src="static/images/2017progcomp2.JPG" alt=""></a>
+                </li>
+                <li style="left: -1280px;" class="">
+                    <a href="javascript:;"><img src="static/images/2017progcomp3.JPG" alt=""></a>
+                </li>
+                <li style="left: -1251.71px;" class="">
+                    <a href="javascript:;"><img src="static/images/wicslogos/googleforms-background.png" alt=""></a>
+                </li>
+            </ul></div>
+        <a href="javascript:;" class="ctrl-slide prev" style="opacity: 0;"></a><a href="javascript:;" class="ctrl-slide next" style="opacity: 0;"></a><ul class="slide-tabs"><li style="opacity: 1;"><a href="#" class="slide-a"></a></li><li style="opacity: 0.7;"><a href="#" class="slide-a"></a></li><li style="opacity: 0.7;"><a href="#" class="slide-a"></a></li><li style="opacity: 0.7;"><a href="#" class="slide-a"></a></li></ul></div>
     </div>
+    
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" class="library" src="static/js/slide.js"></script>
+    <script>
+        $('.slide').slide({
+            start:true,
+            speed:4000,
+            animate: 'horizontal'
+        })
+    </script>
+    
+     -->
+    
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#navbar-collapse-header" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html#welcome"><img class="navbar-image" src="static\images\wicslogos\wicstextlogo-white.png" alt="Official WiCS Logo"></a>
+            </div>
+    
+            <div class="collapse navbar-collapse" id="navbar-collapse-header">
+                <ul class="nav navbar-nav navbar-left">
+                    
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="#meetings">Meetings</a></li>
+                    <li><a href="#sponsors">Sponsors</a></li>
+                    <li><a href="#calendar">Calendar</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+    
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="progcomp.html">Programming Competition</a></li>
+                    <!-- <li><a href="events.html">Upcoming Events</a></li>
+                    <li><a href="outreach.html">Outreach</a></li>
+                    <li><a href="documents.html">Bulletin Board</a></li> -->
+                    <!-- <li><a href="{% url 'image_archive' %}">Image Archive</a></li>-->
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>   
+        
+        <div class="banner">
+    <div id="welcome" class="jumbotron jumbotron-landing">
+        <span>
+      <div class="big-header" style="padding-top:50px"><img src="static\images\wicslogos\website%20header.png" style="width:80%"></div>
+      <div class="small-header" style="padding-top:50px"><img src="static\images\wicslogos\website%20header%20small.png" style="width:80%"></div>
+            
+            <h2>at</h2>
+            
+      <h2>Arizona State University</h2>
+            <br>
+            <br>
+        <p> <i>A support network and resource for female and other minority students in technology.</i></p>
+            </span>
+    </div>
+            </div>
+    
+    <div id="about" class="jumbotron stack">
+    <span class="text">
+        <h2 style="margin-bottom:0"> About Us </h2>
+        <h3 style="margin:0; color: #ae97de; white-space: nowrap"> - - - - - - - - - - - - - - - - - </h3>
+        <!--<span class="sexy_line"></span>-->
+        <br><br>
+        <div class="col-md-12">
+            <div class="col-md-6 stack-text">
+                <img class="decor-image" src="static\images\eye.png" alt="Eye">
+                <h4><b>Our Vision</b></h4>
+                <p>To increase diversity in technology in order to drive innovation.</p>
+            </div>
+            <div class="col-md-6 stack-text">
+                <img class="decor-image" src="static\images\globe.png" alt="Globe">
+                <h4><b>Our Mission</b></h4>
+                <p> Women in Computer Science is a student organization at ASU which acts as a support network and resource for female and other minority students in technology.</p>
+            </div>
+        </div>
+    
+    </span>
+    </div>
+    
+    <div id="meetings" class="jumbotron stack">
+    <span class="text">
+        <h2 style="margin-bottom:0 "> Meetings </h2>
+       <h3 style="margin:0; padding-bottom:20; color: #ae97de; white-space: nowrap"> - - - - - - - - - - - - - - - - - </h3>
+        <!--<span class="sexy_line_2"></span>-->
+    
+        <div class="col-md-12">
+            <div class="col-md-6 stack-text">
+                <img class="decor-image" src="static\images\calendar.png" alt="Calendar">
+                <h4>Time</h4>
+               <p> We have a meeting every other Wednesday at <u>6:30pm</u></p>
+            </div>
+            <div class="col-md-6 stack-text">
+                <img class="decor-image" src="static\images\clock.png" alt="Clock">
+                <h4>Place</h4>
+                    <p>We are located in the Brickyard Engineering building, room 210 <u>(BYENG 210)</u>.</p>
+            </div>
+        </div>
+        <p><b>To recieve emails detailing all upcoming WiCS events and the bi-weekly newsletter, join our <a href="https://orgsync.com/12651/chapter" target="_blank">SunDevilSync</a>.</b></p> 
+    </span>
+    </div>
+        
+    <!--     
+    <script> 
+        $(document).ready(function () {
+                    var imageFile = ["slideshow/1.JPG", "slideshow/2.JPG", "slideshow/3.JPG", "slideshow/4.JPG", "slideshow/5.JPG", "slideshow/6.JPG",
+                    "slideshow/7.JPG", "slideshow/8.JPG", "slideshow/9.JPG", "slideshow/10.JPG", "slideshow/11.JPG", "slideshow/12.5.JPG"];
+                    var currentIndex = 0;
+                    setInterval(function () {
+                        if (currentIndex == imageFile.length) {
+                            currentIndex = 0;
+                        }
+                        $(".bg").css('background-image', 'linear-gradient(rgba(132,75,191, 0.5), rgba(56,4,109, 0.5)), url("static/images/' + imageFile[currentIndex++] + '")');
+                    }, 3500);
+                });
+    </script>
+        
+    <div class="bg" style="height:100%"></div>
+    <div class="jumbotron jumbotron-landing" style="margin-bottom: 0px; padding-bottom: 10px">
+        <span style="vertical-align: bottom"><img src="static/images/wicslogos/white%20moth.png" align="right" style="width:7%; padding-right: 7px; padding-top:0px " ></span>
+    </div> -->
+        
+    
+        
+    <div id="sponsors" class="jumbotron stack">
+    <span class="text">
+        <h2 style="margin-bottom:0"> Thank You to Our Sponsors</h2>
+        <h3 style="margin:0; margin-bottom: 30px; color: #ae97de; white-space: nowrap"> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </h3>
+        <!--<span class="sexy_line"></span>-->
+<!--         <br> -->
+<!--              <h1 style="color:#ded9ce;"><b>PLATINUM</b></h1> -->
+<!--         <div class="row platniumsp"> -->
+<!--             <div class="col-sm-6"> -->
+<!--                 <img class="platniumsp-logo" src="static\images\company-logos\jda_logo.png" alt="JDA" style= "width: 300px;">  -->
+<!--             </div> -->
+<!--             <div class="col-md-6"> -->
+<!--                 <img class="platniumsp-logo" src="static\images\company-logos\nationwide-logo.png" alt="Nationwide" style="width: 300px; margin-top:20px;"> -->
+<!--             </div> -->
+<!--           </div> -->
+
+        <h1 style="color:#EEC900; font-size: 60;"><b>WiCS - Gold Sponsor</b></h1>
+        <div class="row goldsp">
+                <img class="silversp-logo" src="static\images\company-logos\intel.png" alt="Intel" style="width:360px">
+        </div> 
+        <div class="row goldsp">
+                <img class="silversp-logo" src="static\images\company-logos\nationwide.png" alt="Nationwide" style="width:420px; margin-top:20px;">
+        </div> 
+        <div class="row goldsp">
+            
+              <img class="silversp-logo" src="static\images\company-logos\blue.png" alt="Blue Yonder" style="width:420px; margin-top:20px;">
+            
+        </div> 
+          
+          <h2 style="color:#A69B90; font-size:40px"><b>WiCS - Silver Sponsor</b></h2>
+        <div class="row silversp">
+            <div class="col-md-6">
+                <img class="silversp-logo" src="static\images\company-logos\fox.png" alt="FOX" style="width:200px; margin-top:29px;">
+            </div>
+            <div class="col-md-4">
+              <img class="silversp-logo" src="static\images\company-logos\amazon.png" alt="Amazon" style="width:225px; margin-top:40px;">
+            </div>
+        </div>
+
+        <div class="row silversp">
+            <div class="col-md-6">
+              <img class="silversp-logo" src="static\images\company-logos\octo.jpg" alt="Octo" style="width:300px; margin-top:15px;">
+            </div>
+            <div class="col-md-4">
+              <img class="silversp-logo" src="static\images\company-logos\osisoft.png" alt="OSISoft" style="width:350px; margin-top:15px;">
+            </div>
+        </div>
+        
+        <div class="row silversp">
+            <div class="col-md-6">
+              <img class="silversp-logo" src="static\images\company-logos\paradox.png" alt="Paradox" style="width:300px; margin-top:15px;">
+            </div>
+            <div class="col-md-4">
+              <img class="silversp-logo" src="static\images\company-logos\workiva.jpg" alt="Workiva" style="width:350px; margin-top:15px;">
+            </div>
+        </div>
+    
+          
+        <div class="row maroonsp">
+            <h3 style="color:#800000;"><b></b>WiCS - Bronze Sponsor</b></h3>
+
+            <div class="col-md-4">
+              <img class="maroonsp-logo" src="static\images\company-logos\newrelic.png" alt="NewRelic" style="width:150px"></div>
+            <div class="col-md-4">
+              <img class="goldsp-logo" src="static\images\company-logos\godaddy.jpg" alt="GoDaddy" style="margin-top:40; width:300px">
+            </div>
+            <div class="col-md-4">
+              <img class="maroonsp-logo" src="static\images\company-logos\carvana.png" alt="Carvana" style="width:150px">
+            </div>
+                </div>
+                
+            
+            
+            
+          </div><!-- /maroon row -->
+        <!-- <p><b>If your company is interested in helping us reach our goals, find out more <a href="#">here</a>!</b></p>  -->
+    </span>
+    </div>
+        
+    <div id="calendar" class="stack">
+        <div class="col-md-12">
+        <h2 style="margin-bottom:0; margin-top:40px"> Calendar </h2>
+            <h3 style="margin:0; color: #ae97de; white-space: nowrap"> - - - - - - - - - - - - - - - - - </h3>
+            <br>
+            <div class="responsive-iframe-container big-container" ><iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=wics.asu%40gmail.com&amp;color=%235229A3&amp;ctz=America%2FPhoenix" style="border-width:0; width:100%; height:85%; padding-left:8%; padding-right:8%;" frameborder="0" scrolling="no"></iframe></div>
+            <div class="responsive-iframe-container small-container"><iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=wics.asu%40gmail.com&amp;color=%235229A3&amp;ctz=America%2FPhoenix" style="border-width:0; width:100%; height:100%; padding-bottom:70px;" frameborder="0" scrolling="no"></iframe></div>
+        </div>
+        <style>   
+            
+     @media (max-width: 550px) {
+         .big-container {
+             display: none;
+         }
+         .big-header {
+             display: none;
+         }
+         
+          
+     }
+     @media (min-width: 550px) {
+         .small-container {
+             display: none;
+         }
+         .small-header {
+             display: none;
+         }
+     }
+     /* Responsive iFrame */
+     .responsive-iframe-container {
+         text-align: center;
+         position: relative;
+         padding-bottom: 90%;
+         padding-top: 30px;
+         height: 0;
+         overflow: hidden;
+     }
+            
+     .responsive-iframe-container iframe,   
+     .vresponsive-iframe-container object,  
+     .vresponsive-iframe-container embed {
+         text-align: center;
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+     }
+    
+     </style>
+    </div>
+    
+    
+    <nav class="navbar navbar-default footer">
+        <div class="container social-media-images">
+            <ul class="nav navbar-nav navbar-footer">
+                <li><a href="https://www.facebook.com/groups/wics.asu/"><img class="social-media" src="static\images\facebook.png" alt="Facebook"></a></li>
+                <li><a href="https://twitter.com/wics_asu"><img class="social-media" src="static\images\twitter.png" alt="Twitter"></a></li>
+                <li><a href="https://www.instagram.com/wics.asu/"><img class="social-media" src="static\images\instagram.png" alt="Instagram"></a></li>
+                <li><a href="https://orgsync.com/12651/chapter"><img class="social-media" src="static\images\orgsync.png" alt="OrgSync"></a></li>
+            </ul>
+        </div>
+        <div class="copyright">© 2020</div>
+    
     </nav>
-    </div>
-    <main class="page lanidng-page">
-        <section class="flex-grow-1 flex-shrink-1 portfolio-block block-intro" style="padding: 0px;padding-top: 10px;width: 100%;padding-right: 0px;padding-bottom: 10px;padding-left: 0px;height: auto;">
-            <div class="container" style="margin: 20px;padding-bottom: 20px;padding-top: 0;padding-right: 0%;padding-left: 0%;margin-right: 5%;margin-left: 5%;margin-top: 32px;width: auto;height: auto;min-height: none;max-width: none;border-style: none;">
-                <div class="headerDiv" style="border-color: rgba(107,53,195,0.8);margin: 5px;margin-top: 5px;margin-bottom: 5px;padding: 5px;margin-right: 0px;margin-left: 0px;height: 277px;"><img class="img-fluid" src="assets/img/header.png" style="padding: 27px;margin: 5px;">
-                    <h2 style="width: 100%;font-size: 26px;margin-bottom: 0;padding: 20px;margin-top: 0;height: auto;border-style: none;border-color: rgb(36,125,193);color: rgb(103,78,157);"><strong>at Arizona State University</strong></h2>
-                </div>
-                <div class="headerDiv bodyDiv" style="padding: 10px;">
-                    <p style="width: 100%;text-align: center;padding: 10px;padding-top: 3px;color: rgb(0,0,0);font-size: 18px;margin-bottom: 3px;height: auto;line-height: 1.45;border: 2px none rgb(35,159,254);border-bottom-width: 2px;margin-top: 3px;padding-bottom: 3px;">A support network and resource for female and minority students in technology<br></p>
-                </div>
-            </div>
-        </section>
-    </main>
-    <div class="features-boxed" style="background: rgba(158,0,255,0.08);padding-bottom: 10px;padding-top: 10px;margin-bottom: 0px;margin-top: 10px;">
-        <div class="container" style="border-radius: 8px;border: 1px solid rgb(141,115,195);box-shadow: 2px 3px 2px rgba(129,83,188,0.43);background: rgb(255,255,255);margin-top: 10px;margin-bottom: 10px;">
-            <div class="intro" style="margin-bottom: 15px;margin-top: 10px;">
-                <h2 class="text-center" style="padding-top: 15px;margin-bottom: 20px;">About Us</h2>
-                <p class="text-center">WiCS is a fully student-run organization. We receive funding from our amazing sponsors and ASU to run our weekly club meetings and plan our bigger events.</p>
-            </div>
-            <div class="row justify-content-center features" style="padding-bottom: 30px;padding-top: 30px;margin-right: 0px;margin-left: 0px;">
-                <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box" style="background: rgba(255,255,255,0);"><img class="img-fluid" src="assets/img/eye.png" style="padding: 10px;padding-right: 20px;padding-left: 20px;padding-bottom: 20px;max-height: 200px;">
-                        <h3 class="name">Our vision</h3>
-                        <p class="description">To increase diversity in technology in order to drive innovation</p><a class="learn-more" href="#">Learn more »</a></div>
-                </div>
-                <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box" style="background: rgba(255,255,255,0);"><img class="img-fluid" src="assets/img/globe.png" style="padding: 10px;padding-right: 20px;padding-left: 20px;padding-bottom: 20px;max-height: 200px;">
-                        <h3 class="name">Our Mission</h3>
-                        <p class="description">Women in Computer Science is a student organization at ASU which acts as a support network and resource for female and other minority students in technology.</p><a class="learn-more" href="#">Learn more »</a></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="features-boxed" style="background: rgb(255,255,255);padding-bottom: 10px;padding-top: 10px;margin-bottom: 0px;margin-top: 10px;">
-        <div class="container" style="border-radius: 8px;border: 1px solid rgb(141,115,195);box-shadow: 2px 3px 2px rgba(129,83,188,0.43);background: rgba(115,19,219,0.82);margin-top: 10px;margin-bottom: 10px;">
-            <div class="intro" style="margin-bottom: 15px;margin-top: 10px;">
-                <h2 class="text-center" style="padding-top: 15px;margin-bottom: 20px;color: #ffffff;text-shadow: 1px 1px 1px rgba(227,218,245,0);">Meetings</h2>
-                <p class="text-center" style="color: #ffffff;text-shadow: 1px 1px 1px rgba(227,218,245,0);">WiCS is a fully student-run organization. We receive funding from our amazing sponsors and ASU to run our weekly club meetings and plan our bigger events.</p>
-            </div>
-            <div class="row justify-content-center features" style="padding-bottom: 30px;padding-top: 30px;margin-right: 0px;margin-left: 0px;">
-                <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box" style="background: rgba(255,255,255,0);"><img class="img-fluid" src="assets/img/calendar.png" style="padding: 10px;padding-right: 20px;padding-left: 20px;padding-bottom: 20px;max-height: 200px;">
-                        <h3 class="name" style="color: #ffffff;text-shadow: 1px 1px 1px rgba(227,218,245,0);">Time</h3>
-                        <p class="description" style="color: #ffffff;text-shadow: 1px 1px 1px rgba(227,218,245,0);">We have a meeting every other Wednesday at 6:30pm</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box" style="background: rgba(255,255,255,0);"><img class="img-fluid" src="assets/img/clock.png" style="padding: 10px;padding-right: 20px;padding-left: 20px;padding-bottom: 20px;max-height: 200px;">
-                        <h3 class="name" style="color: #ffffff;text-shadow: 1px 1px 1px rgba(227,218,245,0);">Place</h3>
-                        <p class="description" style="color: #ffffff;text-shadow: 1px 1px 1px rgba(227,218,245,0);">Normally, we meet at the Brickyard Engineering Building, room 210 (BYENG 210)</p>
-                        <p class="description" style="color: #ffffff;text-shadow: 1px 1px 1px rgba(227,218,245,0);">Currently, we meet online, through Zoom.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="photo-gallery" style="margin-bottom: 100px;padding-bottom: 30px;padding-top: 20px;margin-top: 100px;">
-        <div class="container d-flex flex-column">
-            <div class="intro" style="margin-right: auto;margin-left: auto;height: auto;width: auto;margin-bottom: 30px;margin-top: 0px;">
-                <h2 class="text-center" style="font-size: 40px;">Thank you to our sponsors!</h2>
-            </div>
-            <div class="row row-cols-1 d-flex flex-column flex-shrink-1 justify-content-center align-items-center photos" style="background: rgba(255,229,95,0.85);border-radius: 3px;box-shadow: 2px 3px 4px;border: 2px solid rgb(186,173,101);margin-right: 0px;margin-left: 0px;padding-top: 20px;">
-                <div class="col-auto col-sm-10 col-md-8 col-lg-7 col-xl-auto d-flex justify-content-md-center align-items-md-center item" style="border-radius: 10px;box-shadow: 4px 4px 2px rgba(125,89,20,0.42);background: #ffffff;border-style: solid;border-color: rgba(176,160,78,0.87);padding: 5px;padding-bottom: 5px;padding-top: 5px;margin-top: 10px;margin-bottom: 10px;margin-right: 5px;margin-left: 5px;">
-                    <h2 class="text-center" style="font-size: 40px;padding-right: 5px;padding-left: 5px;">Gold Tier Sponsors</h2><a data-lightbox="photos" href="desk.jpg"></a></div>
-                <div class="col-auto col-sm-10 col-md-8 col-lg-7 col-xl-auto d-flex justify-content-md-center align-items-md-center item" style="border-radius: 10px;box-shadow: 4px 4px 2px rgba(125,89,20,0.42);background: #ffffff;border-style: solid;border-color: rgba(176,160,78,0.87);padding: 5px;padding-bottom: 5px;padding-top: 5px;margin-top: 10px;margin-bottom: 10px;margin-right: 5px;margin-left: 5px;"><a data-lightbox="photos" href="desk.jpg"><img class="img-fluid" src="assets/img/sponsors/nationwide.png" style="width: 400px;padding: 3px;"></a></div>
-                <div class="col-auto col-sm-10 col-md-8 col-lg-7 col-xl-auto d-flex justify-content-md-center align-items-md-center item"
-                    style="border-radius: 10px;box-shadow: 4px 4px 2px rgba(125,89,20,0.42);background: #ffffff;border-style: solid;border-color: rgba(176,160,78,0.87);padding: 5px;padding-bottom: 5px;padding-top: 5px;margin-top: 10px;margin-bottom: 10px;margin-right: 5px;margin-left: 5px;"><a data-lightbox="photos" href="building.jpg"><img class="img-fluid" src="assets/img/sponsors/intel.png" style="width: 400px;padding: 3px;"></a></div>
-                <div class="col-auto col-sm-10 col-md-8 col-lg-7 col-xl-auto d-flex justify-content-md-center align-items-md-center item"
-                    style="border-radius: 10px;box-shadow: 4px 4px 2px rgba(125,89,20,0.42);background: #ffffff;border-style: solid;border-color: rgba(176,160,78,0.87);padding: 5px;padding-bottom: 5px;padding-top: 5px;margin-top: 10px;margin-bottom: 10px;margin-right: 5px;margin-left: 5px;"><a data-lightbox="photos" href="assets/img/loft.jpg"><img class="img-fluid" src="assets/img/sponsors/blue.png" style="width: 400px;padding: 3px;"></a></div>
-            </div>
-        </div>
-    </div>
-    <div class="photo-gallery" style="margin-bottom: 0px;padding-bottom: 30px;padding-top: 20px;">
-        <div class="container d-flex flex-column">
-            <div class="intro" style="margin-right: auto;margin-left: auto;height: auto;width: auto;margin-bottom: 30px;margin-top: 0px;"></div>
-            <div class="row row-cols-1 d-flex flex-column flex-shrink-1 justify-content-center align-items-center photos" style="background: rgba(128,159,173,0.65);border-radius: 3px;box-shadow: 2px 3px 4px rgb(63,79,95);margin-right: 0px;margin-left: 0px;padding-top: 20px;border: 2px solid rgb(135,155,207) ;">
-                <div class="col-auto col-sm-10 col-md-8 col-lg-7 col-xl-auto d-flex justify-content-md-center align-items-md-center item" style="border-radius: 10px;box-shadow: 4px 4px 2px rgba(113,131,153,0.42);background: #ffffff;padding: 5px;padding-bottom: 5px;padding-top: 5px;margin-top: 10px;margin-bottom: 10px;margin-right: 5px;margin-left: 5px;border-style: solid;border-color: rgba(72,112,142,0.87);">
-                    <h2 class="text-center" style="font-size: 40px;padding-right: 5px;padding-left: 5px;">Silver Tier Sponsors</h2><a data-lightbox="photos" href="desk.jpg"></a></div>
-                <div class="col-auto col-sm-10 col-md-8 col-lg-7 col-xl-auto d-flex justify-content-md-center align-items-md-center item" style="border-radius: 10px;box-shadow: 4px 4px 2px rgba(113,131,153,0.42);background: #ffffff;padding: 5px;padding-bottom: 5px;padding-top: 5px;margin-top: 10px;margin-bottom: 10px;margin-right: 5px;margin-left: 5px;max-width: 45%;border-style: solid;border-color: rgba(72,112,142,0.87);"><a data-lightbox="photos" href="desk.jpg"><img class="img-fluid" src="assets/img/sponsors/fox.png" style="width: 300px;padding: 12px;"></a></div>
-                <div class="col-auto col-sm-10 col-md-8 col-lg-7 col-xl-auto d-flex justify-content-md-center align-items-md-center item"
-                    style="border-radius: 10px;box-shadow: 4px 4px 2px rgba(113,131,153,0.42);background: #ffffff;padding: 5px;padding-bottom: 5px;padding-top: 5px;margin-top: 10px;margin-bottom: 10px;margin-right: 5px;margin-left: 5px;max-width: 45%;border-style: solid;border-color: rgba(72,112,142,0.87);"><a data-lightbox="photos" href="building.jpg"><img class="img-fluid" src="assets/img/sponsors/amazon.png" style="width: 300px;padding: 12px;"></a></div>
-                <div class="col-auto col-sm-10 col-md-8 col-lg-7 col-xl-auto d-flex justify-content-md-center align-items-md-center item"
-                    style="border-radius: 10px;box-shadow: 4px 4px 2px rgba(113,131,153,0.42);background: #ffffff;padding: 5px;padding-bottom: 5px;padding-top: 5px;margin-top: 10px;margin-bottom: 10px;margin-right: 5px;margin-left: 5px;max-width: 45%;border-style: solid;border-color: rgba(72,112,142,0.87);"><a data-lightbox="photos" href="assets/img/loft.jpg"><img class="img-fluid" src="assets/img/sponsors/octo.jpg" style="width: 300px;padding: 12px;"></a></div>
-                <div class="col-auto col-sm-10 col-md-8 col-lg-7 col-xl-auto d-flex justify-content-md-center align-items-md-center item"
-                    style="border-radius: 10px;box-shadow: 4px 4px 2px rgba(113,131,153,0.42);background: #ffffff;padding: 5px;padding-bottom: 5px;padding-top: 5px;margin-top: 10px;margin-bottom: 10px;margin-right: 5px;margin-left: 5px;max-width: 45%;border-style: solid;border-color: rgba(72,112,142,0.87);"><a data-lightbox="photos" href="assets/img/loft.jpg"><img class="img-fluid" src="assets/img/sponsors/osisoft.png" style="width: 300px;padding: 12px;"></a></div>
-                <div class="col-auto col-sm-10 col-md-8 col-lg-7 col-xl-auto d-flex justify-content-md-center align-items-md-center item"
-                    style="border-radius: 10px;box-shadow: 4px 4px 2px rgba(113,131,153,0.42);background: #ffffff;padding: 5px;padding-bottom: 5px;padding-top: 5px;margin-top: 10px;margin-bottom: 10px;margin-right: 5px;margin-left: 5px;max-width: 45%;border-style: solid;border-color: rgba(72,112,142,0.87);"><a data-lightbox="photos" href="assets/img/loft.jpg"><img class="img-fluid" src="assets/img/sponsors/paradox.png" style="width: 300px;padding: 12px;"></a></div>
-                <div class="col-auto col-sm-10 col-md-8 col-lg-7 col-xl-auto d-flex justify-content-md-center align-items-md-center item"
-                    style="border-radius: 10px;box-shadow: 4px 4px 2px rgba(113,131,153,0.42);background: #ffffff;padding: 5px;padding-bottom: 5px;padding-top: 5px;margin-top: 10px;margin-bottom: 10px;margin-right: 5px;margin-left: 5px;max-width: 45%;border-style: solid;border-color: rgba(72,112,142,0.87);"><a data-lightbox="photos" href="assets/img/loft.jpg"><img class="img-fluid" src="assets/img/sponsors/octo.jpg" style="width: 300px;padding: 12px;"></a></div>
-            </div>
-        </div>
-    </div>
-    <div class="photo-gallery" style="margin-bottom: 0px;padding-bottom: 30px;padding-top: 20px;">
-        <div class="container d-flex flex-column">
-            <div class="intro" style="margin-right: auto;margin-left: auto;height: auto;width: auto;margin-bottom: 30px;margin-top: 0px;"></div>
-            <div class="row row-cols-1 d-flex flex-column flex-shrink-1 justify-content-center align-items-center photos" style="background: rgba(157,92,56,0.85);border-radius: 3px;box-shadow: 2px 3px 4px;margin-right: 0px;margin-left: 0px;padding-top: 20px;border: 2px solid rgb(132,91,30);">
-                <div class="col-auto col-sm-10 col-md-8 col-lg-7 col-xl-auto d-flex justify-content-md-center align-items-md-center item" style="border-radius: 10px;box-shadow: 4px 4px 2px rgba(125,89,20,0.42);background: #ffffff;padding: 5px;padding-bottom: 5px;padding-top: 5px;margin-top: 10px;margin-bottom: 10px;margin-right: 5px;margin-left: 5px;border-style: solid;border-color: rgba(128,76,39,0.87);">
-                    <h2 class="text-center" style="font-size: 40px;padding-right: 5px;padding-left: 5px;">Bronze Tier Sponsors</h2><a data-lightbox="photos" href="desk.jpg"></a></div>
-                <div class="col-auto col-sm-10 col-md-8 col-lg-7 col-xl-auto d-flex justify-content-md-center align-items-md-center item" style="border-radius: 10px;box-shadow: 4px 4px 2px rgba(125,89,20,0.42);background: #ffffff;padding: 5px;padding-bottom: 5px;padding-top: 5px;margin-top: 10px;margin-bottom: 10px;margin-right: 5px;margin-left: 5px;max-width: 35%;border-style: solid;border-color: rgba(128,76,39,0.87);"><a data-lightbox="photos" href="desk.jpg"><img class="img-fluid" src="assets/img/sponsors/newrelic.png" style="width: 231px;padding: 3px;"></a></div>
-                <div class="col-auto col-sm-10 col-md-8 col-lg-7 col-xl-auto d-flex justify-content-md-center align-items-md-center item"
-                    style="border-radius: 10px;box-shadow: 4px 4px 2px rgba(125,89,20,0.42);background: #ffffff;padding: 5px;padding-bottom: 5px;padding-top: 5px;margin-top: 10px;margin-bottom: 10px;margin-right: 5px;margin-left: 5px;max-width: 35%;border-style: solid;border-color: rgba(128,76,39,0.87);"><a data-lightbox="photos" href="building.jpg"><img class="img-fluid" src="assets/img/sponsors/godaddy.jpg" style="width: 231px;padding: 3px;"></a></div>
-                <div class="col-auto col-sm-10 col-md-8 col-lg-7 col-xl-auto d-flex justify-content-md-center align-items-md-center item"
-                    style="border-radius: 10px;box-shadow: 4px 4px 2px rgba(125,89,20,0.42);background: #ffffff;padding: 5px;padding-bottom: 5px;padding-top: 5px;margin-top: 10px;margin-bottom: 10px;margin-right: 5px;margin-left: 5px;max-width: 35%;border-style: solid;border-color: rgba(128,76,39,0.87);"><a data-lightbox="photos" href="assets/img/loft.jpg"><img class="img-fluid" src="assets/img/sponsors/carvana.png" style="width: 231px;padding: 3px;"></a></div>
-            </div>
-        </div>
-    </div>
-    <div class="container" style="padding: 5px;padding-top: 20px;padding-bottom: 20px;padding-right: 0px;margin-top: 20px;margin-bottom: 20px;">
-        <div class="embed-responsive embed-responsive-16by9" style="padding: 20px;margin: 0px;margin-top: 20px;margin-left: 0px;margin-bottom: 20px;margin-right: 0px;"><iframe class="embed-responsive-item" src="https://calendar.google.com/calendar/embed?height=600&amp;amp;wkst=1&amp;amp;bgcolor=%23FFFFFF&amp;amp;src=wics.asu%40gmail.com&amp;amp;color=%235229A3&amp;amp;ctz=America%2FPhoenix"></iframe></div>
-    </div>
-    <div class="footer-clean" style="padding-bottom: 10px;padding-top: 10px;">
-        <footer>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-sm-4 col-md-3 item" style="height: auto;">
-                        <h3 class="text-center" style="margin-bottom: 5px;margin-top: 5px;">WiCS 2020</h3>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
-    <script src="assets/js/theme.js"></script>
-</body>
-
-</html>
+    </body>
+    
+    
